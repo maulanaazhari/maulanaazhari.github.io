@@ -685,6 +685,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     border-radius: 50%;
 }
 
+.img-square {
+  margin: auto;
+}
+
 .list-inline {
   padding-left: 0;
   margin-left: -5px;
