@@ -1,189 +1,290 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Maulana Bisyir Azhari
+  label: PhD Candidate in Electrical Engineering
+  email: maulanabisyira@gmail.com
+  phone: "+82 10 2705 0857"
+  location: Daejeon, South Korea
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    PhD Candidate at Korea Advanced Institute of Science and Technology (KAIST),
+    working under Prof. David Hyunchul Shim at the Unmanned System Research Group (USRG).
+    Research focuses on Robotics, Autonomous Drones, Visual Odometry, Localization,
+    and Computer Vision. Experienced in real-world autonomous drone systems for
+    search-rescue, reconnaissance, maritime security, and high-speed drone racing.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: maulanaazhari
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: maulanabisyirazhari
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Korea Advanced Institute of Science and Technology (KAIST)
+        location: Daejeon, South Korea
+        area: Electrical Engineering
+        studyType: Master–PhD Integrated
+        start_date: 2021-08
+        end_date: present
+        score: "3.54/4.3"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Prof. David Hyunchul Shim"
+          - "Topics: Robotics, Autonomous Drone, Localization, Computer Vision"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Indonesia
+        location: Depok, Indonesia
+        area: Electrical Engineering
+        studyType: Bachelor of Engineering
+        start_date: 2016-08
+        end_date: 2020-07
+        score: "3.53/4.0"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Prof. Benyamin Kusumoputro"
+          - "Thesis: Missile Dynamical System Identification using Artificial Neural Networks"
+          - "Courses: Control Engineering, Deep Learning, Robotics"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Unmanned System Research Group (USRG) – KAIST EE
+        position: Graduate Student Researcher
+        location: Daejeon, South Korea
+        start_date: 2021-08
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - Develop real-world drones for various applications — Search-rescue, reconnaissance, anti-drone, maritime security, and autonomous drone racing.
+          - Robotics stacks — Autonomous navigation, localization, detection, autonomous exploration, control.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: PT Indo Xetia Internasional (XETIA)
+        position: Backend / Machine Learning Engineer
+        location: Remote, Indonesia
+        start_date: 2020-09
+        end_date: 2021-08
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed microservices for user management, real-time chat, notification, product, and AI models. Stacks — Django, REST Framework, WebSocket, FastAPI, Redis, Celery, Flask, TensorFlow-Serving, Docker.
+          - Designed and developed machine learning models for image-based categorization, clustering, and more.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Computational Intelligence and Intelligent Systems Laboratory – University of Indonesia
+        position: Research Assistant
+        location: Depok, Indonesia
+        start_date: 2020-08
+        end_date: 2021-08
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Conducted research in control system algorithm and computer vision.
+          - Assisted undergraduate students in their research.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Indonesia Medical Education and Research Institute (IMERI FKUI)
+        position: Medical Technology Research and Development Intern
+        location: Jakarta, Indonesia
+        start_date: 2019-10
+        end_date: 2019-11
+        highlights:
+          - Designed and implemented a PID controller for a Negative Pressure Wound Therapy (NPWT) Device.
+          - Designed and fabricated PCB for the NPWT.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: PT Industri Kereta Api (INKA) – State-owned Rolling Stock Manufacturer
+        position: Technology Research and Development Intern
+        location: Madiun, Indonesia
+        start_date: 2019-07
+        end_date: 2019-08
+        highlights:
+          - Designed and simulated an Engine-Generator Control Unit of an Electric-Diesel Train.
+          - Designed electrical components including rectifier, low pass filter, and buck converter.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "DINO-VO: A Feature-based Visual Odometry Leveraging a Visual Foundation Model"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - M.B. Azhari
+          - D.H. Shim
+        publisher: IEEE Robotics and Automation Letters
+        releaseDate: 2025-07-01
+        summary: Feature-based visual odometry leveraging DINOv2 as a visual foundation model for robust camera pose estimation.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "An autonomous UAV system based on adaptive LiDAR Inertial Odometry for practical exploration in complex environments"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - B. Kim
+          - M.B. Azhari
+          - J. Park
+          - D.H. Shim
+        publisher: Journal of Field Robotics
+        releaseDate: 2024-01-01
+        summary: Adaptive LiDAR-Inertial Odometry system for autonomous UAV exploration in complex environments.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Curvature-based 3D Path Planning Algorithm for Quadcopter"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - J. Park
+          - B. Kim
+          - S. Lee
+          - M.B. Azhari
+          - D.H. Shim
+        publisher: "The Journal of Korea Robotics Society, vol.18, no.3, pp. 316-322"
+        releaseDate: 2023-01-01
+        summary: 3D path planning algorithm based on geometric curvature constraints for quadcopter UAVs.
+
+      - title: "SPIBOT: A Drone-Tethered Mobile Gripper for Robust Aerial Object Retrieval in Dynamic Environments"
+        authors:
+          - G. Kang
+          - O. Guenes
+          - S. Lee
+          - M.B. Azhari
+          - D.H. Shim
+        publisher: IEEE International Conference on Robotics and Automation (ICRA)
+        releaseDate: 2025-01-01
+        summary: A drone-tethered mobile gripper system for robust aerial object retrieval.
+
+      - title: "Data acquisition of X-plane's aircraft through matlab for neural network based identification system"
+        authors:
+          - M.F. Fadlian
+          - M.B. Azhari
+          - B. Kusumoputro
+        publisher: "AIP Conf. Proc.; 2376 (1): 060002"
+        releaseDate: 2021-09-23
+        summary: Aircraft data acquisition methodology using X-Plane simulator and MATLAB for neural network-based flight identification.
+
+    Awards:
+      - title: KAIST Challenge Award, KAIST's 55th Anniversary
+        date: 2026
+        awarder: KAIST
+        summary: Award for outstanding contribution at KAIST.
+
+      - title: 4th Place of Speed Race, A2RL Drone Championship
+        date: 2026
+        awarder: ASPIRE – Abu Dhabi Autonomous Racing League
+        summary: Abu Dhabi, United Arab Emirates.
+
+      - title: 3rd Place of AI Grand Challenge, A2RL X DCL Drone Championship
+        date: 2025
+        awarder: ASPIRE – Abu Dhabi Autonomous Racing League
+        summary: Abu Dhabi, United Arab Emirates.
+
+      - title: 2nd Place of AI Multi-Drone Race, A2RL X DCL Drone Championship
+        date: 2025
+        awarder: ASPIRE – Abu Dhabi Autonomous Racing League
+        summary: Abu Dhabi, United Arab Emirates.
+
+      - title: 2nd Place of AI Drag Race, A2RL X DCL Drone Championship
+        date: 2025
+        awarder: ASPIRE – Abu Dhabi Autonomous Racing League
+        summary: Abu Dhabi, United Arab Emirates.
+
+      - title: KAIST Challenge Award, KAIST's 54th Anniversary
+        date: 2024
+        awarder: KAIST
+        summary: Daejeon, South Korea.
+
+      - title: 2nd Place, 3rd Mohamed Bin Zayed Robotics Challenge (MBZIRC)
+        date: 2024
+        awarder: ASPIRE, United Arab Emirates
+        summary: Abu Dhabi, United Arab Emirates.
+
+      - title: Top 2 Teams, ADD Autonomous Drone for Battlefield Environments
+        date: 2022
+        awarder: Republic of Korea Agency for Defense Development (ADD)
+        summary: Daejeon, South Korea.
+
+      - title: 1st Place, 5th Army Tiger DroneBot Challenge — Indoor Reconnaissance Drone
+        date: 2022
+        awarder: Republic of Korea Army Training and Doctrine Command (ROKA TRADOC)
+        summary: Daejeon, South Korea.
+
+      - title: Finalist of EDF Rocket Control System, KOMURINDO-KOMBAT
+        date: 2019
+        awarder: KOMURINDO-KOMBAT
+        summary: Garut, Indonesia.
+
+      - title: Finalist, 31st National Student Scientific Week (PIMNAS)
+        date: 2018
+        awarder: Ministry of Research, Technology, and Higher Education
+        summary: Yogyakarta, Indonesia.
+
+      - title: BIDIKMISI Scholarship
+        date: 2016
+        awarder: Ministry of Research, Technology, and Higher Education
+        summary: Scholarship awarded for academic excellence. Depok, Indonesia.
+
+      - title: 1st Place of Quick and Smart, ESA FEST
+        date: 2015
+        awarder: Sultan Ageng Tirtayasa University
+        summary: Serang, Indonesia.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Python, C/C++, C#, Matlab"
+
+      - name: Robotics
+        level: Expert
+        icon: fa-solid fa-robot
+        keywords: "ROS1, ROS2, Gazebo, PX4-Autopilot, Localization, Navigation, Control Systems, Embedded Systems, Deep Learning, Perception, Object Tracking"
+
+      - name: Software & Tools
+        level: Advanced
+        icon: fa-solid fa-layer-group
+        keywords: "Linux, TensorFlow, PyTorch, Docker, OpenCV, AWS, Google Cloud, Django, REST API"
 
     Languages:
-      - name: German
+      - name: English
+        summary: "Professional working proficiency"
+
+      - name: Bahasa Indonesia
         summary: "Native speaker"
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: Deep Learning Engineer
+        date: 2020-11-01
+        issuer: Workera
+        icon: fa-solid fa-brain
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: TensorFlow — Data and Deployment
+        date: 2020-10-01
+        issuer: DeepLearning.AI – Coursera
+        icon: fa-solid fa-diagram-project
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Reinforcement Learning
+        date: 2020-04-01
+        issuer: University of Alberta – Coursera
+        icon: fa-solid fa-chart-line
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: A2RL Autonomous Drone Championship (2025–2026)
+        summary: >
+          Develop algorithms for high-speed drone racing relying exclusively on a single monocular
+          RGB camera and an IMU sensor for real-time perception, navigation, and control.
+          Stacks — Visual-Inertial-based Localization, Gate Detection, Model Predictive Control,
+          Optimal Trajectory Planning.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Held by ASPIRE – Abu Dhabi Autonomous Racing League
+          - Sept 2024 – Present, Abu Dhabi, UAE
+        start_date: 2024-09
+        end_date: present
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: 3rd Mohamed Bin Zayed International Robotics Challenge (MBZIRC)
+        summary: >
+          Developed autonomous drones (UAVs) and an unmanned surface vehicle (USV) to perform
+          inspection and intervention tasks in a GPS-denied marine environment. Stacks —
+          Localization (AprilTag-based, Optical Flow), Mission Planner, Control, Object Detection and Tracking.
+        highlights:
+          - Held by ASPIRE, United Arab Emirates
+          - March 2023 – February 2024, Abu Dhabi, UAE
+        start_date: 2023-03
+        end_date: 2024-02
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: ADD Autonomous Drone for Battlefield Environments
+        summary: >
+          Developed a fully autonomous drone system for reconnaissance in a battlefield indoor environment.
+          Stacks — Autonomous Exploration Algorithm, Object Detection-Localization (Euclidean Clustering), LiDAR SLAM.
+        highlights:
+          - Held by Republic of Korea Agency for Defense Development (ADD)
+          - October 2022, Daejeon, South Korea
+        start_date: 2022-10
+        end_date: 2022-10
+
+      - name: 5th Army Tiger DroneBot Mission Challenge — Indoor Reconnaissance Drone
+        summary: >
+          Developed a fully autonomous drone that entered a building via a second-floor window, located
+          hidden objects in real time, and returned to its starting point. Stacks — Autonomous Exploration,
+          Object Detection, Synthetic Dataset Generation, Real-time Video Transmission (WireGuard, LTE, Google Cloud, ZMQ), LiDAR SLAM.
+        highlights:
+          - Held by Republic of Korea Army Training and Doctrine Command (ROKA TRADOC)
+          - Aug 2022, Daejeon, South Korea
+        start_date: 2022-08
+        end_date: 2022-08

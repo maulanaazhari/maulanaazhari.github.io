@@ -1,0 +1,230 @@
++82 10 2705 0857 | maulanabisyira@gmail.com | github.com/maulanaazhari
+
+|
+
+linkedin.com/in/maulanabisyirazhari/
+
+Maulana Bisyir Azhari
+
+Education
+Master‑PhD Integrated in Electrical Engineering
+Korea Advanced Institute of Science and Technology (KAIST)
+• Advisor : Prof. David Hyunchul Shim.
+• Topics : Robotics, Autonomous Drone, Localization, Computer Vision.
+Bachelor of Engineering in Electrical Engineering
+University of Indonesia
+• Advisor : Prof. Benyamin Kusumoputro.
+• Thesis : Missile Dynamical System Identification using Artificial Neural Networks.
+• Courses : Control Engineering, Deep Learning, Robotics.
+
+Experiences
+
+Current GPA ‑ 3.54/4.3
+08/2021 ‑ Current
+
+GPA ‑ 3.53/4.0
+08/2016 ‑ 07/2020
+
+Unmanned System Research Group (USRG) ‑ KAIST EE
+Daejeon, South Korea
+Graduate Student Reseacher
+Aug 2021 ‑ Present
+• Develop real‑world drones for various applications: Search‑rescue, reconnaissance, anti‑drone, maritime security, and autonomous
+
+drone racing.
+
+• Robotics stacks: Autonomous navigation, localization, detection, autonomous exploration, control.
+PT Indo Xetia Internasional (XETIA)
+Remote, Indonesia
+Backend/Machine Learning Engineer
+Sep 2020 ‑ Aug 2021
+• Developed microservices for user management, real‑time chat, notification, product, and AI models. Stacks: Django, REST Frame‑
+
+work, WebSocket, FastAPI, Redis, Django channels, Celery, Flask, TensorFlow‑serving, Docker, Dash, Paddle‑Serving
+• Designed and developed machine learning models for various applications: Image‑based categorization, clustering, etc
+Computational Intelligence and Intelligent Systems Laboratory – University of Indonesia
+Research Assistant
+• Conducted research in control system algorithm and computer vision. Assisted undergraduate students in their research.
+Indonesia Medical Education and Research Institute (IMERI FKUI)
+Medical Technology Research and Development Intern
+• Designed and implemented a PID controller to Negative Pressure Wound Therapy (NPWT) Device.
+• Designed and fabricated PCB for the NPWT.
+PT Industri Kereta Api (INKA) ‑ State‑owned Rolling Stock Manufacturer
+Technology Research and Development Intern
+• Designed and simulated an Engine‑Generator Control Unit of an Electric‑Diesel Train.
+• Designed the electrical components of the system such as rectifier, low pass filter, and buck converter.
+
+Depok, Indonesia
+Aug 2020 ‑ Aug 2021
+
+Jakarta, Indonesia
+Oct 2019 ‑ Nov 2019
+
+Madiun, Indonesia
+Jul 2019 ‑ Aug 2019
+
+Publications
+JOURNALS
+1. M.B. Azhari, and D.H. Shim. ”DINO‑VO: A Feature‑based Visual Odometry Leveraging a Visual Foundation Model,” IEEE Robotics
+
+and Automation Letters, July 2025. [paper]
+
+2. B. Kim, M.B. Azhari, J. Park, and D.H. Shim. ”An autonomous UAV system based on adaptive LiDAR Inertial Odometry for practical
+
+exploration in complex environments,” Journal of Field Robotics, 2024. [paper] [video1] [video2]
+
+3. J. Park, B. Kim, S. Lee, M.B. Azhari and D.H. Shim, ”Curvature‑based 3D Path Planning Algorithm for Quadcopter,” The Journal
+
+of Korea Robotics Society, vol.18, no.3, pp. 316‑322. 2023. [paper]
+
+CONFERENCES
+1. G. Kang, O. Guenes, S. Lee, M.B. Azhari, D.H. Shim. ”SPIBOT: A Drone‑Tethered Mobile Gripper for Robust Aerial Object Retrieval
+
+in Dynamic Environments.” IEEE International Conference on Robotics and Automation (ICRA) 2025. [paper] [video]
+
+2. M.F. Fadlian, M.B. Azhari, B. Kusumoputro. ”Data acquisition of X‑plane’s aircraft through matlab for neural network based
+
+identification system.” AIP Conf. Proc. 23 September 2021; 2376 (1): 060002. [paper]
+
+PREPRiNTS/UNDER REViEW
+1. M.B. Azhari, D. Han, S. Park, and D.H. Shim. ”Robust Tightly‑Coupled Filter‑based Monocular Visual‑Inertial State Estimation
+
+and Graph‑based Evaluation for Autonomous Drone Racing,” Submitted to IEEE IROS 2026. [paper]
+
+2. M.B. Azhari, D. Han, J. You, S. Park, and D.H. Shim. ”Drift‑Corrected Monocular VIO and Perception‑Aware Planning for Au‑
+
+tonomous Drone Racing,” under review at Journal of Field Robotics. [paper] [video]
+
+3. S. Han, H. Do, S. Lee, K. Park, M.B. Azhari, H. Cho, J. Choi, O. Guenes, D. Han, G. Kang, D. Kim, K. Kim, D. Lee, J. Park, H. Son, J.
+Kim, D.H. Shim, S. Cho. ”A Collaborative USV‑UAV System for Maritime Search and Retrieval in GNSS‑denied Environment: Team
+KAIST’s Contribution to MBZIRC 2023,” under review. [video]
+
+4. S. Lee, M.B. Azhari, G. Kang, O. Guenes, D. Han, D.H. Shim. ”A Collaborative Team of UAV‑Hexapod for an Autonomous Retrieval
+
+System in GNSS‑Denied Maritime Environments,” under review. [paper] [video]
+
+Projects
+COMPETiTiONS
+A2RL Autonomous Drone Championship (2025‑2026)
+Abu Dhabi, United Arab Emirates
+Held by ASPIRE ‑ Abu Dhabi Autonomous Racing League, United Arab Emirates
+Sept 2024 ‑ Present
+• Goal: Develop algorithms for high‑speed drone racing that rely exclusively on a single monocular RGB camera and an IMU sensor for
+
+real‑time perception, navigation, and control.
+
+• Stacks: Visiual‑Inertial‑based Localization, Gate Detection, Model Predictive Control, Optimal Trajectory Planning.
+• Related links: a2rl.io/autonomous‑drone‑race, https://youtu.be/x_IDrf6j0qs, youtu.be/omncgCLqqWA
+3rd Mohamed Bin Zayed International Robotics Challenge (MBZIRC)
+Abu Dhabi, United Arab Emirates
+Held by ASPIRE, United Arab Emirates
+March 2023 ‑ February 2024
+• Goal: The teams developed autonomous drones (UAVs) and an unmanned surface vehicle (USV) to perform inspection task (detect
+illegal vessels) and intervention task (retrieve stolen objects from illegal vessels) in a GPS‑denied marine environment, addressing
+issues like piracy and smuggling.
+
+• Stacks: Localization (AprilTag‑based, Optical Flow), Mission Planner, Control, Object Detection and Tracking.
+• Related links: www.mbzirc.com, youtu.be/Ya1pfWYRMrc, youtu.be/FSxC_kbI7EY
+ADD Autonomous Drone for Battlefield Environments
+Daejeon, South Korea
+Held by Republic of Korea Agency for Defense Development (ADD)
+October 2022
+• Goal: Develop a fully autonomous drone system for reconnaissance in a battlefield indoor environment. The drone had to perform
+
+autonomous localization, obstacle avoidance, exploration along with target detection using onboard computation.
+
+• Stacks: Autonomous Exploration Algorithm, Object Detection‑Localization (Euclidean Clustering), LiDAR SLAM.
+• Related links: youtu.be/h_PsFVhhAs
+5th Army Tiger DroneBot Mission Challenge: Indoor Reconnaissance Drone
+Daejeon, South Korea
+Held by Republic of Korea Army Training and Doctrine Command (ROKA TRADOC)
+Aug 2022
+• Goal: Develop a fully autonomous drone system that entered a building via a second‑floor window, locate hidden objects in real time,
+
+and return to its starting point.
+
+• Stacks: Autonomous Exploration Algorithm, Object Detection, Synthetic Dataset Generation, Real‑time Video Transmission (Wire‑
+
+Guard, LTE Module, Google Cloud, ZMQ), LiDAR SLAM.
+
+• Related links: youtu.be/SXe_FJpxv94
+
+LABORATORY PROJECTS
+Underground Autonomous Exploration using Quadrotor UAV
+Funded by
+
+Indoor Decontamination System using UGV and UAV
+Funded by
+
+Dec 2022 ‑ Present
+
+April 2024 ‑ Present
+
+Anti‑Drone System with Jammer
+Funded by
+• Designed and implemented C++ ROS packages to autonomously navigate using Dijkstra’s and to perform robotic manipulation.
+
+Dec 2022 ‑ Present
+
+Achievements
+
+2026
+2026
+2025
+2025
+2025
+2025
+2024
+2022
+2022
+2019
+2018
+2016
+2015
+
+KAIST Challenge Award, KAIST’s 55th Anniversary
+4th Place of Speed Race, A2RL Drone Championship
+3rd Place of AI Grand Challenge, A2RL X DCL Drone Championship
+2nd Place of AI Multi‑Drone Race, A2RL X DCL Drone Championship
+2nd Place of AI Drag Race, A2RL X DCL Drone Championship
+KAIST Challenge Award, KAIST’s 54th Anniversary
+2nd Place, 3rd Mohamed Bin Zayed Robotics Challenge (MBZIRC)
+Top 2 Teams, ADD Autonomous Drone for Battelfield Environments
+1st Place, 5th Army Tiger DroneBot Challenge: Indoor Reconnaissance Drone
+Finalist of EDF Rocket Control System, KOMURINDO‑KOMBAT
+Finalist, 31st National Student Scientific Week (PIMNAS)
+BIDIKMISI Scholarship, Ministry of Research, Technology, and Higher Education
+1st Place of Quick and Smart, ESA FEST at Sultan Ageng Tirtayasa University
+
+Skills
+Programming Python, C/C++, C#, Matlab
+
+Daejeon, South Korea
+Abu Dhabi, United Arab Emirates
+Abu Dhabi, United Arab Emirates
+Abu Dhabi, United Arab Emirates
+Abu Dhabi, United Arab Emirates
+Daejeon, South Korea
+Abu Dhabi, United Arab Emirates
+Daejeon, South Korea
+Daejeon, South Korea
+Garut, Indonesia
+Yogyakarta, Indonesia
+Depok, Indonesia
+Serang, Indonesia
+
+Robotics
+
+ROS1, ROS2, Gazebo, PX4‑Autopilot, Localization, Navigation, Control Systems, Embedded Systems, Deep Learning,
+Perception, Control, Object Tracking
+
+Software Linux, Tensorflow, Pytorch, Docker, OpenCV, AWS, Google‑Cloud, Django, REST API
+
+Certifications
+
+Deep Learning Engineer (Workera, Nov 2020), TensorFlow: Data and Deployment (DeepLearning.AI – Coursera, Oct 2020),
+Reinforcement Learning (University of Alberta – Coursera, Apr 2020)
+
+Languages English (Professional), Bahasa Indonesia (Native)
+
+
