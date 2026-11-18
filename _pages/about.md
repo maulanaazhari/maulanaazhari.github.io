@@ -49,7 +49,7 @@ Now open for opportunities! email: maulanabisyira(at)gmail(dot)com
 
 <div style="clear: both;"></div>
 
-### Visual(-Inertial) Odometry/SLAM
+### Learning-Based Visual(-Inertial) Odometry/SLAM
 
 <div class="row">
   <div class="col-12 col-md-6 mt-3">
