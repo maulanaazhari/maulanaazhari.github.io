@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Indoor Decontamination System (UGV + UAV)
+title: Manned-Operated Indoor Decontamination System
 description: Collaborative ground and aerial robot system for indoor decontamination tasks
 img: assets/img/6.jpg
 importance: 2
-category: lab projects
+category: research projects
 ---
 
-**Funded by:** KAIST / External Research Grant<br>
-**Duration:** April 2024 – Present<br>
+**Funded by:** Agency for Defense Development (ADD)<br>
+**Duration:** 2024 – 2026<br>
 **Location:** Unmanned System Research Group (USRG), KAIST EE
 
 ## Overview

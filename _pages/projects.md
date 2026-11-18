@@ -3,9 +3,9 @@ layout: page
 title: projects
 permalink: /projects/
 description: Research projects, autonomous drone competitions, and lab work at KAIST USRG.
-nav: true
+nav: false
 nav_order: 3
-display_categories: [competitions, lab]
+display_categories: [competitions, research projects]
 horizontal: false
 ---
 

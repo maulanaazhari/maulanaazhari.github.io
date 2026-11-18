@@ -1,0 +1,7 @@
+{%- comment -%}
+  Renders the site owner's name with the "ari" part bold + underlined.
+  Used by the page heading (_layouts/about.liquid) and the navbar (_includes/header.liquid).
+{%- endcomment -%}
+{{ site.first_name }}
+{% if site.middle_name %}{{ site.middle_name }} {% endif %}
+{{- site.last_name | replace: 'ari', '<span class="name-highlight">ari</span>' -}}

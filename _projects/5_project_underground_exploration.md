@@ -1,30 +1,31 @@
 ---
 layout: page
-title: Underground Autonomous Exploration (UAV)
-description: Quadrotor UAV for autonomous exploration in underground/confined environments
+title: AI-based Indoor Autonomous Multi-Mission Drone
+description: Indoor autonomous drone for multi-mission operations based on artificial intelligence (2021–2022)
 img: assets/img/4.jpg
 importance: 1
-category: lab projects
+category: research projects
 ---
 
-**Funded by:** KAIST / External Research Grant<br>
-**Duration:** December 2022 – Present<br>
+**Project:** Development of Indoor Autonomous Drone for Multi-Mission based on Artificial Intelligence (AI)<br>
+**Funded by:** (Korean) Institute for Information and Communication Technology Planning and Evaluation (IITP)<br>
+**Duration:** 2021 – 2022<br>
 **Location:** Unmanned System Research Group (USRG), KAIST EE
 
 ## Overview
 
-This ongoing laboratory project focuses on developing a **quadrotor UAV capable of fully autonomous exploration of underground and confined environments** — such as tunnels, mines, and subterranean structures — where GPS is unavailable and environmental conditions are challenging.
+This project develops an **indoor autonomous drone capable of performing multiple missions** using AI-based perception, in GPS-denied indoor environments where the drone must localize, navigate, and explore on its own using onboard computation.
 
 ## Research Challenges
 
-- Reliable localization without GPS in geometrically challenging underground spaces
+- Reliable localization without GPS in cluttered indoor spaces
 - Safe navigation in narrow passages with limited sensing range
-- Efficient exploration of large unknown volumes with onboard computation
-- Handling dust, poor lighting, and irregular terrain typical of underground environments
+- Efficient exploration of unknown environments with onboard computation
+- Real-time detection and localization of objects of interest
 
 ## Technical Approach
 
-- **LiDAR-based SLAM** – Dense 3D mapping using onboard LiDAR for precise localization
-- **Frontier-based Autonomous Exploration** – Systematic exploration strategy to efficiently cover unknown areas
+- **LiDAR(-Inertial) SLAM** – Onboard 3D mapping for precise localization
+- **Autonomous Exploration** – Systematic exploration of unknown indoor spaces
 - **Collision-free Motion Planning** – Safe trajectory generation in tight spaces
-- **Embedded Computing** – Full autonomy stack running on onboard compute hardware
+- **AI-based Object Detection** – Real-time detection of targets of interest

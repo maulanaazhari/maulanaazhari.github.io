@@ -41,21 +41,28 @@ The mission simulated a real-world maritime security scenario — **detecting il
 ## Demo
 
 <div class="mt-3">
-  <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ya1pfWYRMrc" allowfullscreen></iframe>
-  </div>
-  <p class="caption mt-2">MBZIRC 2023 – Mission Video 1</p>
+  {% include youtube.liquid id="d0iwSzh9fxs" title="Team KAIST at MBZIRC" %}
+  <p class="caption mt-2">Team KAIST at MBZIRC</p>
 </div>
 
 <div class="mt-3">
-  <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FSxC_kbI7EY" allowfullscreen></iframe>
-  </div>
-  <p class="caption mt-2">MBZIRC 2023 – Mission Video 2</p>
+  {% include youtube.liquid id="SOPcTh2B-64" title="SPIBOT: A Drone-Tethered Mobile Gripper for Aerial Grasping (ICRA 2025)" %}
+  <p class="caption mt-2">SPIBOT: A Drone-Tethered Mobile Gripper for Aerial Grasping (ICRA 2025)</p>
+</div>
+
+<div class="mt-3">
+  {% include youtube.liquid id="Ya1pfWYRMrc" title="MBZIRC Team Profile – Team KAIST" %}
+  <p class="caption mt-2">MBZIRC Team Profile – Team KAIST</p>
+</div>
+
+<div class="mt-3">
+  {% include youtube.liquid id="FSxC_kbI7EY" title="MBZIRC Feature – Crab Robot" %}
+  <p class="caption mt-2">MBZIRC Feature – Crab Robot</p>
 </div>
 
 ## Links
 
 - competition website: [mbzirc.com](https://www.mbzirc.com)
-- paper 1: [SPIBOT: A Drone-Tethered Mobile Gripper for Robust Aerial Object Retrieval in Dynamic Environments](https://arxiv.org/pdf/2409.16181)
-- paper 2: [A Collaborative Team of UAV-Hexapod for an Autonomous Retrieval System in GNSS-Denied Maritime Environments](https://arxiv.org/pdf/2410.09606)
+- paper 1: [SPIBOT: A Drone-Tethered Mobile Gripper for Robust Aerial Object Retrieval in Dynamic Environments](https://ieeexplore.ieee.org/document/11128830) (ICRA 2025)
+- paper 2: A Collaborative USV-UAV System for Maritime Search and Retrieval in GNSS-denied Environment: Team KAIST's Contribution to MBZIRC 2023 (under review)
+- paper 3: [A Collaborative Team of UAV-Hexapod for an Autonomous Retrieval System in GNSS-Denied Maritime Environments](https://arxiv.org/pdf/2410.09606)

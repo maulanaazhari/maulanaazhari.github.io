@@ -188,3 +188,21 @@
     color: var(--global-hover-color);
   }
 }
+
+// Owner name in the navbar: same font and size as the page heading (h1.post-title)
+#navbar .navbar-brand.navbar-name {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+
+  // keep it on one line next to the menu button on phones
+  @media (max-width: 575.98px) {
+    font-size: 1.5rem;
+  }
+}
+
+// Highlighted part of the owner's name ("ari"), used in the heading and navbar
+.name-highlight {
+  font-weight: bold;
+  text-decoration: underline;
+}

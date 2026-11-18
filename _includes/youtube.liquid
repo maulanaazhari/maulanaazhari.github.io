@@ -1,0 +1,97 @@
+{% comment %}
+  Click-to-play YouTube embed ("facade").
+  Shows only the video thumbnail and a play button; the YouTube player
+  (privacy-enhanced youtube-nocookie.com) is loaded when the visitor clicks.
+
+  Usage:
+    {% include youtube.liquid id="VIDEO_ID" title="Caption text" %}
+{% endcomment %}
+<div
+  class="yt-facade embed-responsive embed-responsive-16by9 rounded z-depth-1"
+  data-id="{{ include.id }}"
+  data-title="{{ include.title | escape }}"
+  role="button"
+  tabindex="0"
+  aria-label="Play video: {{ include.title | escape }}"
+>
+  <img class="embed-responsive-item" src="https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg" alt="{{ include.title | escape }}" loading="lazy">
+  <span class="yt-play" aria-hidden="true"></span>
+</div>
+
+{% unless yt_facade_assets_loaded %}
+  {% assign yt_facade_assets_loaded = true %}
+  <style>
+    .yt-facade {
+      cursor: pointer;
+      background: #000;
+      overflow: hidden;
+    }
+    .yt-facade img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      transition:
+        transform 0.3s ease,
+        filter 0.3s ease;
+    }
+    .yt-facade:hover img,
+    .yt-facade:focus-visible img {
+      transform: scale(1.03);
+      filter: brightness(0.85);
+    }
+    .yt-play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 56px;
+      height: 56px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.55);
+      transition: background 0.2s ease;
+    }
+    .yt-play::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 54%;
+      transform: translate(-50%, -50%);
+      border-style: solid;
+      border-width: 10px 0 10px 17px;
+      border-color: transparent transparent transparent #fff;
+    }
+    .yt-facade:hover .yt-play,
+    .yt-facade:focus-visible .yt-play {
+      background: var(--global-theme-color, #b509ac);
+    }
+  </style>
+  <script>
+    (function () {
+      function play(el) {
+        if (el.dataset.loaded) return;
+        el.dataset.loaded = '1';
+        var iframe = document.createElement('iframe');
+        iframe.className = 'embed-responsive-item';
+        iframe.src = 'https://www.youtube-nocookie.com/embed/' + el.dataset.id + '?autoplay=1&rel=0&playsinline=1';
+        iframe.title = el.dataset.title || 'YouTube video';
+        iframe.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+        iframe.allowFullscreen = true;
+        el.innerHTML = '';
+        el.appendChild(iframe);
+        el.style.cursor = 'auto';
+      }
+      document.addEventListener('click', function (e) {
+        var el = e.target.closest && e.target.closest('.yt-facade');
+        if (el) play(el);
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Enter' && e.key !== ' ') return;
+        var el = e.target.closest && e.target.closest('.yt-facade');
+        if (el) {
+          e.preventDefault();
+          play(el);
+        }
+      });
+    })();
+  </script>
+{% endunless %}

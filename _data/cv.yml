@@ -1,15 +1,16 @@
 cv:
   name: Maulana Bisyir Azhari
   label: PhD Candidate in Electrical Engineering
-  email: maulanabisyira@gmail.com
+  email: mbazhari@kaist.ac.kr
   location: Daejeon, South Korea
   image: ""
   summary: >
     PhD Candidate at Korea Advanced Institute of Science and Technology (KAIST),
     working under Prof. David Hyunchul Shim at the Unmanned System Research Group (USRG).
-    Research focuses on Robotics, Autonomous Drones, Visual Odometry, Localization,
-    and Computer Vision. Experienced in real-world autonomous drone systems for
-    search-rescue, reconnaissance, maritime security, and high-speed drone racing.
+    Research focuses on visual and inertial state estimation, visual odometry/SLAM,
+    and autonomous drones. Experienced in building real-world autonomous drone systems
+    for search-and-rescue, reconnaissance, anti-drone, maritime security, and
+    high-speed autonomous drone racing.
 
   social_networks:
     - network: GitHub
@@ -22,13 +23,15 @@ cv:
       - institution: Korea Advanced Institute of Science and Technology (KAIST)
         location: Daejeon, South Korea
         area: Electrical Engineering
-        studyType: Master–PhD Integrated
+        studyType: PhD
         start_date: 2021-08
-        end_date: present
+        end_date: 2027-02 (Expected)
         score: "3.54/4.3"
         highlights:
+          - "Expected graduation: February 2027"
           - "Advisor: Prof. David Hyunchul Shim"
-          - "Topics: Robotics, Autonomous Drone, Localization, Computer Vision"
+          - "Focus: Robotics, SLAM, Computer Vision, Autonomous Drones"
+          - "Thesis: Specialized and Generalized Visual and Inertial State Estimation: From Autonomous Drone Racing to Diverse Environments"
 
       - institution: University of Indonesia
         location: Depok, Indonesia
@@ -39,18 +42,18 @@ cv:
         score: "3.53/4.0"
         highlights:
           - "Advisor: Prof. Benyamin Kusumoputro"
+          - "Focus: Robotics, Control, Deep Learning"
           - "Thesis: Missile Dynamical System Identification using Artificial Neural Networks"
-          - "Courses: Control Engineering, Deep Learning, Robotics"
 
     Experience:
-      - company: Unmanned System Research Group (USRG) – KAIST EE
+      - company: Unmanned System Research Group (USRG) – KAIST
         position: Graduate Student Researcher
         location: Daejeon, South Korea
         start_date: 2021-08
         end_date: present
         highlights:
-          - Develop real-world drones for various applications — Search-rescue, reconnaissance, anti-drone, maritime security, and autonomous drone racing.
-          - Robotics stacks — Autonomous navigation, localization, detection, autonomous exploration, control.
+          - "Develop real-world drones for search-and-rescue, reconnaissance, anti-drone, maritime security, and autonomous drone racing."
+          - "Robotics stacks: autonomous navigation, localization, detection, autonomous exploration, control."
 
       - company: PT Indo Xetia Internasional (XETIA)
         position: Backend / Machine Learning Engineer
@@ -58,17 +61,15 @@ cv:
         start_date: 2020-09
         end_date: 2021-08
         highlights:
-          - Developed microservices for user management, real-time chat, notification, product, and AI models. Stacks — Django, REST Framework, WebSocket, FastAPI, Redis, Celery, Flask, TensorFlow-Serving, Docker.
-          - Designed and developed machine learning models for image-based categorization, clustering, and more.
+          - "Developed microservices for user management, real-time chat, notification, product, and AI model serving. Stacks: Django, REST Framework, WebSocket, FastAPI, Redis, Django Channels, Celery, Flask, TensorFlow-Serving, Docker, Dash, Paddle-Serving."
 
-      - company: Computational Intelligence and Intelligent Systems Laboratory – University of Indonesia
+      - company: Computational Intelligence and Intelligent System Research Group – University of Indonesia
         position: Research Assistant
         location: Depok, Indonesia
         start_date: 2020-08
         end_date: 2021-08
         highlights:
-          - Conducted research in control system algorithm and computer vision.
-          - Assisted undergraduate students in their research.
+          - Conducted research in control system algorithms and computer vision; assisted undergraduate students' research.
 
       - company: Indonesia Medical Education and Research Institute (IMERI FKUI)
         position: Medical Technology Research and Development Intern
@@ -76,8 +77,7 @@ cv:
         start_date: 2019-10
         end_date: 2019-11
         highlights:
-          - Designed and implemented a PID controller for a Negative Pressure Wound Therapy (NPWT) Device.
-          - Designed and fabricated PCB for the NPWT.
+          - Designed and implemented a PID controller for a Negative Pressure Wound Therapy (NPWT) device, including the PCB fabrication.
 
       - company: PT Industri Kereta Api (INKA) – State-owned Rolling Stock Manufacturer
         position: Technology Research and Development Intern
@@ -85,64 +85,150 @@ cv:
         start_date: 2019-07
         end_date: 2019-08
         highlights:
-          - Designed and simulated an Engine-Generator Control Unit of an Electric-Diesel Train.
-          - Designed electrical components including rectifier, low pass filter, and buck converter.
+          - Designed and simulated an Engine-Generator Control Unit and its electrical loads for an Electric-Diesel Train system.
+
+      - company: Control Laboratory – University of Indonesia
+        position: Teaching Laboratory Assistant
+        location: Depok, Indonesia
+        start_date: 2019-01
+        end_date: 2020-01
+        highlights:
+          - Assisted and tutored participants of the control system engineering lab.
+          - Developed hardware modules for lab activities and a human-machine interface (HMI) for the DC Control Motor module.
 
     Publications:
+      - title: "Drift-Corrected Monocular VIO and Perception-Aware Planning for Autonomous Drone Racing"
+        authors: [M.B. Azhari, D. Han, J. You, S.J. Park, D.H. Shim]
+        publisher: Journal of Field Robotics
+        releaseDate: 2026-01-01
+        url: https://onlinelibrary.wiley.com/doi/10.1002/rob.70371
+        summary: "M.B. Azhari, D. Han, J. You, S.J. Park, D.H. Shim"
+
+      - title: "Robust Tightly-Coupled Filter-based Monocular Visual-Inertial State Estimation and Graph-based Evaluation for Autonomous Drone Racing"
+        authors: [M.B. Azhari, D. Han, S.J. Park, D.H. Shim]
+        publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        releaseDate: 2026-01-01
+        url: https://arxiv.org/pdf/2603.02742
+        summary: "M.B. Azhari, D. Han, S.J. Park, D.H. Shim"
+
+      - title: "VeloBins: Learning Velocity and Its Uncertainty via Bins and Error-Conditioned Gaussian Labels for Aerial Inertial Odometry"
+        authors: [M.B. Azhari, S. Lee, D. Han, S.J. Park, D.H. Shim]
+        publisher: Under revision at IEEE Robotics and Automation Letters
+        releaseDate: 2026-01-01
+        url: https://arxiv.org/abs/2608.29720
+        summary: "M.B. Azhari, S. Lee, D. Han, S.J. Park, D.H. Shim"
+
+      - title: "LiΣ-SLAM: Lightweight Uncertainty-Aware Stereo Visual Inertial SLAM System"
+        authors: [M.B. Azhari, D.H. Shim]
+        publisher: In preparation
+        releaseDate: 2026-01-01
+        summary: "M.B. Azhari, D.H. Shim"
+
       - title: "DINO-VO: A Feature-based Visual Odometry Leveraging a Visual Foundation Model"
-        authors:
-          - M.B. Azhari
-          - D.H. Shim
+        authors: [M.B. Azhari, D.H. Shim]
         publisher: IEEE Robotics and Automation Letters
         releaseDate: 2025-07-01
-        summary: Feature-based visual odometry leveraging DINOv2 as a visual foundation model for robust camera pose estimation.
-
-      - title: "An autonomous UAV system based on adaptive LiDAR Inertial Odometry for practical exploration in complex environments"
-        authors:
-          - B. Kim
-          - M.B. Azhari
-          - J. Park
-          - D.H. Shim
-        publisher: Journal of Field Robotics
-        releaseDate: 2024-01-01
-        summary: Adaptive LiDAR-Inertial Odometry system for autonomous UAV exploration in complex environments.
-
-      - title: "Curvature-based 3D Path Planning Algorithm for Quadcopter"
-        authors:
-          - J. Park
-          - B. Kim
-          - S. Lee
-          - M.B. Azhari
-          - D.H. Shim
-        publisher: "The Journal of Korea Robotics Society, vol.18, no.3, pp. 316-322"
-        releaseDate: 2023-01-01
-        summary: 3D path planning algorithm based on geometric curvature constraints for quadcopter UAVs.
+        url: https://ieeexplore.ieee.org/document/11091393
+        summary: "M.B. Azhari, D.H. Shim"
 
       - title: "SPIBOT: A Drone-Tethered Mobile Gripper for Robust Aerial Object Retrieval in Dynamic Environments"
-        authors:
-          - G. Kang
-          - O. Guenes
-          - S. Lee
-          - M.B. Azhari
-          - D.H. Shim
+        authors: [G. Kang, O. Guenes, S. Lee, M.B. Azhari, D.H. Shim]
         publisher: IEEE International Conference on Robotics and Automation (ICRA)
         releaseDate: 2025-01-01
-        summary: A drone-tethered mobile gripper system for robust aerial object retrieval.
+        url: https://ieeexplore.ieee.org/document/11128830
+        summary: "G. Kang, O. Guenes, S. Lee, M.B. Azhari, D.H. Shim"
+
+      - title: "A Collaborative USV-UAV System for Maritime Search and Retrieval in GNSS-denied Environment: Team KAIST's Contribution to MBZIRC 2023"
+        authors: [S. Han, et al., M.B. Azhari, D.H. Shim, S. Cho]
+        publisher: Under review
+        releaseDate: 2025-01-01
+        summary: "S. Han, H. Do, S. Lee, K. Park, M.B. Azhari, H. Cho, J. Choi, O. Guenes, D. Han, G. Kang, D. Kim, K. Kim, D. Lee, J. Park, H. Son, J. Kim, D.H. Shim, S. Cho"
+
+      - title: "An autonomous UAV system based on adaptive LiDAR Inertial Odometry for practical exploration in complex environments"
+        authors: [B. Kim, M.B. Azhari, J. Park, D.H. Shim]
+        publisher: Journal of Field Robotics
+        releaseDate: 2024-01-01
+        url: https://onlinelibrary.wiley.com/doi/10.1002/rob.22284
+        summary: "B. Kim, M.B. Azhari, J. Park, D.H. Shim"
+
+      - title: "Curvature-based 3D Path Planning Algorithm for Quadcopter"
+        authors: [J. Park, B. Kim, S. Lee, M.B. Azhari, D.H. Shim]
+        publisher: "The Journal of Korea Robotics Society, vol.18, no.3, pp. 316-322"
+        releaseDate: 2023-01-01
+        url: https://jkros.org/_common/do.php?a=full&b=33&bidx=3391&aidx=37548
+        summary: "J. Park, B. Kim, S. Lee, M.B. Azhari, D.H. Shim"
 
       - title: "Data acquisition of X-plane's aircraft through matlab for neural network based identification system"
-        authors:
-          - M.F. Fadlian
-          - M.B. Azhari
-          - B. Kusumoputro
+        authors: [M.F. Fadlian, M.B. Azhari, B. Kusumoputro]
         publisher: "AIP Conf. Proc.; 2376 (1): 060002"
         releaseDate: 2021-09-23
-        summary: Aircraft data acquisition methodology using X-Plane simulator and MATLAB for neural network-based flight identification.
+        url: https://pubs.aip.org/aip/acp/article/2376/1/060002/945581/Data-acquisition-of-X-plane-s-aircraft-through
+        summary: "M.F. Fadlian, M.B. Azhari, B. Kusumoputro"
+
+    Competitions:
+      - name: A2RL Autonomous Drone Championship (2025–2026)
+        url: https://a2rl.io/autonomous-drone-race
+        summary: >
+          Develop algorithms for high-speed drone racing that rely exclusively on a single monocular
+          RGB camera and an IMU sensor for real-time perception, navigation, and control.
+          Stacks: Visual-Inertial-based Localization, Gate Detection, Model Predictive Control,
+          Optimal Trajectory Planning.
+        highlights:
+          - Held by ASPIRE – Abu Dhabi Autonomous Racing League, United Arab Emirates
+          - Sep 2024 – Present, Abu Dhabi, UAE
+
+      - name: 3rd Mohamed Bin Zayed International Robotics Challenge (MBZIRC)
+        url: https://www.mbzirc.com/
+        summary: >
+          Developed autonomous drones (UAVs) and an unmanned surface vehicle (USV) to perform an
+          inspection task (detect illegal vessels) and an intervention task (retrieve stolen objects
+          from illegal vessels) in a GPS-denied marine environment, addressing issues like piracy and
+          smuggling. Stacks: Localization (AprilTag-based, Optical Flow), Mission Planner, Control,
+          Object Detection and Tracking.
+        highlights:
+          - Held by ASPIRE, United Arab Emirates
+          - March 2023 – February 2024, Abu Dhabi, UAE
+
+      - name: ADD Autonomous Drone for Battlefield Environments
+        summary: >
+          Developed a fully autonomous drone system for reconnaissance in a battlefield indoor environment,
+          performing autonomous localization, obstacle avoidance, and exploration along with target
+          detection using onboard computation. Stacks: Autonomous Exploration Algorithm, Object
+          Detection-Localization (Euclidean Clustering), LiDAR SLAM.
+        highlights:
+          - Held by Republic of Korea Agency for Defense Development (ADD)
+          - October 2022, Daejeon, South Korea
+
+      - name: 5th Army Tiger DroneBot Mission Challenge – Indoor Reconnaissance Drone
+        summary: >
+          Developed a fully autonomous drone system that entered a building via a second-floor window,
+          located hidden objects in real time, and returned to its starting point. Stacks: Autonomous
+          Exploration Algorithm, Object Detection, Synthetic Dataset Generation, LiDAR SLAM.
+        highlights:
+          - Held by Republic of Korea Army Training and Doctrine Command (ROKA TRADOC)
+          - Aug 2022, Daejeon, South Korea
+
+    Projects:
+      - name: Manned-Operated Indoor Decontamination System
+        highlights:
+          - Funded by Agency for Defense Development (ADD)
+          - 2024 – 2026, Daejeon, South Korea
+
+      - name: Development of Anti-Jamming for Unmanned Vehicles Security and Detection and Counter Technology to Unlicensed Unmanned Vehicles
+        highlights:
+          - Funded by Electronics and Telecommunications Research Institute (ETRI)
+          - 2023 – Present, Daejeon, South Korea
+
+      - name: Development of Indoor Autonomous Drone for Multi-Mission based on Artificial Intelligence (AI)
+        highlights:
+          - Funded by Institute for Information and Communication Technology Planning and Evaluation (IITP)
+          - 2021 – 2022, Daejeon, South Korea
 
     Awards:
       - title: KAIST Challenge Award, KAIST's 55th Anniversary
         date: 2026
         awarder: KAIST
-        summary: Award for outstanding contribution at KAIST.
+        summary: Daejeon, South Korea.
 
       - title: 4th Place of Speed Race, A2RL Drone Championship
         date: 2026
@@ -165,7 +251,7 @@ cv:
         summary: Abu Dhabi, United Arab Emirates.
 
       - title: KAIST Challenge Award, KAIST's 54th Anniversary
-        date: 2024
+        date: 2025
         awarder: KAIST
         summary: Daejeon, South Korea.
 
@@ -179,7 +265,7 @@ cv:
         awarder: Republic of Korea Agency for Defense Development (ADD)
         summary: Daejeon, South Korea.
 
-      - title: 1st Place, 5th Army Tiger DroneBot Challenge — Indoor Reconnaissance Drone
+      - title: 1st Place, 5th Army Tiger DroneBot Challenge – Indoor Reconnaissance Drone
         date: 2022
         awarder: Republic of Korea Army Training and Doctrine Command (ROKA TRADOC)
         summary: Daejeon, South Korea.
@@ -194,26 +280,26 @@ cv:
         awarder: Ministry of Research, Technology, and Higher Education
         summary: Yogyakarta, Indonesia.
 
-      - title: BIDIKMISI Scholarship
-        date: 2016
-        awarder: Ministry of Research, Technology, and Higher Education
-        summary: Scholarship awarded for academic excellence. Depok, Indonesia.
-
       - title: 1st Place of Quick and Smart, ESA FEST
         date: 2015
         awarder: Sultan Ageng Tirtayasa University
         summary: Serang, Indonesia.
 
     Skills:
-      - name: Programming
+      - name: Localization
         level: Expert
-        icon: fa-solid fa-code
-        keywords: "Python, C/C++, C#, Matlab"
+        icon: fa-solid fa-location-crosshairs
+        keywords: "Visual Odometry/SLAM, VINS/VIO, LiDAR Odometry/SLAM, EKF, Factor-Graph Optimization, Sensor Fusion, GNSS-Denied Navigation, Tag-based Localization, Learning-based Systems"
 
       - name: Robotics
         level: Expert
         icon: fa-solid fa-robot
-        keywords: "ROS1, ROS2, Gazebo, PX4-Autopilot, Localization, Navigation, Control Systems, Embedded Systems, Deep Learning, Perception, Object Tracking"
+        keywords: "ROS1, ROS2, Gazebo, Aerial Robotics, PX4-Autopilot, State-Estimation, Embedded Systems, Deep Learning, Perception, Object Detection & Tracking, Navigation, Control Systems"
+
+      - name: Programming
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Python, C/C++, C#, Matlab"
 
       - name: Software & Tools
         level: Advanced
@@ -226,6 +312,12 @@ cv:
 
       - name: Bahasa Indonesia
         summary: "Native speaker"
+
+    Service and Activities:
+      - label: Reviewer
+        details: "IEEE ICRA 2025–2026, IEEE/RSJ IROS 2026, IEEE RA-L 2025–2026, IEEE T-FR 2026, Wiley's JFR 2026"
+      - label: Organizations
+        details: "Robotics Team of University of Indonesia (2016–2020), IME-FTUI Student Association (2017), Tech Consultant – EXERCISE FTUI (2018)"
 
     Certificates:
       - name: Deep Learning Engineer
@@ -242,48 +334,3 @@ cv:
         date: 2020-04-01
         issuer: University of Alberta – Coursera
         icon: fa-solid fa-chart-line
-
-    Projects:
-      - name: A2RL Autonomous Drone Championship (2025–2026)
-        summary: >
-          Develop algorithms for high-speed drone racing relying exclusively on a single monocular
-          RGB camera and an IMU sensor for real-time perception, navigation, and control.
-          Stacks — Visual-Inertial-based Localization, Gate Detection, Model Predictive Control,
-          Optimal Trajectory Planning.
-        highlights:
-          - Held by ASPIRE – Abu Dhabi Autonomous Racing League
-          - Sept 2024 – Present, Abu Dhabi, UAE
-        start_date: 2024-09
-        end_date: present
-
-      - name: 3rd Mohamed Bin Zayed International Robotics Challenge (MBZIRC)
-        summary: >
-          Developed autonomous drones (UAVs) and an unmanned surface vehicle (USV) to perform
-          inspection and intervention tasks in a GPS-denied marine environment. Stacks —
-          Localization (AprilTag-based, Optical Flow), Mission Planner, Control, Object Detection and Tracking.
-        highlights:
-          - Held by ASPIRE, United Arab Emirates
-          - March 2023 – February 2024, Abu Dhabi, UAE
-        start_date: 2023-03
-        end_date: 2024-02
-
-      - name: ADD Autonomous Drone for Battlefield Environments
-        summary: >
-          Developed a fully autonomous drone system for reconnaissance in a battlefield indoor environment.
-          Stacks — Autonomous Exploration Algorithm, Object Detection-Localization (Euclidean Clustering), LiDAR SLAM.
-        highlights:
-          - Held by Republic of Korea Agency for Defense Development (ADD)
-          - October 2022, Daejeon, South Korea
-        start_date: 2022-10
-        end_date: 2022-10
-
-      - name: 5th Army Tiger DroneBot Mission Challenge — Indoor Reconnaissance Drone
-        summary: >
-          Developed a fully autonomous drone that entered a building via a second-floor window, located
-          hidden objects in real time, and returned to its starting point. Stacks — Autonomous Exploration,
-          Object Detection, Synthetic Dataset Generation, Real-time Video Transmission (WireGuard, LTE, Google Cloud, ZMQ), LiDAR SLAM.
-        highlights:
-          - Held by Republic of Korea Army Training and Doctrine Command (ROKA TRADOC)
-          - Aug 2022, Daejeon, South Korea
-        start_date: 2022-08
-        end_date: 2022-08

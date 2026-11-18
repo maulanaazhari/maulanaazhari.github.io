@@ -35,7 +35,6 @@ The operations can be done manually or autonomously, our system is operated auto
 
 ## Demo
 
-<div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SXe_FJpxv94" allowfullscreen></iframe>
-</div>
+{% include youtube.liquid id="SXe_FJpxv94" title="Army Tiger DroneBot Challenge – Indoor Reconnaissance Demo" %}
+
 <p class="caption mt-2">Army Tiger DroneBot Challenge – Indoor Reconnaissance Demo</p>

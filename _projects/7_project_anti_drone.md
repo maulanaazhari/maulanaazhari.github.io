@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Anti-Drone System with Jammer
-description: Autonomous detection and jamming system for counter-drone operations
+title: Anti-Jamming & Counter-Drone Technology
+description: Anti-jamming for unmanned vehicle security, and detection & countermeasures against unlicensed drones
 img: assets/img/8.jpg
 importance: 3
-category: lab projects
+category: research projects
 ---
 
-**Funded by:** KAIST / External Research Grant<br>
-**Duration:** December 2022 – Present<br>
+**Project:** Development of Anti-Jamming for Unmanned Vehicles Security and Detection and Counter Technology to Unlicensed Unmanned Vehicles<br>
+**Funded by:** Electronics and Telecommunications Research Institute (ETRI)<br>
+**Duration:** 2023 – Present<br>
 **Location:** Unmanned System Research Group (USRG), KAIST EE
 
 ## Overview

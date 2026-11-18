@@ -16,6 +16,7 @@ category: competitions
 This competition, organized by Korea's Agency for Defense Development (ADD), challenged teams to develop a **fully autonomous drone system for reconnaissance in a battlefield indoor environment**.
 
 The drone had to:
+
 - Enter and navigate an unknown, GPS-denied indoor environment
 - Perform autonomous localization and obstacle avoidance
 - Explore the environment autonomously
@@ -34,7 +35,6 @@ The drone had to:
 
 ## Demo
 
-<div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/h_PsFVhh-As" allowfullscreen></iframe>
-</div>
+{% include youtube.liquid id="h_PsFVhh-As" title="ADD Autonomous Drone – Battlefield Indoor Reconnaissance" %}
+
 <p class="caption mt-2">ADD Autonomous Drone – Battlefield Indoor Reconnaissance</p>

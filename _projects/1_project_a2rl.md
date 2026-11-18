@@ -34,21 +34,28 @@ The system must handle real-time perception, navigation, and control at racing s
 ## Demo
 
 <div class="mt-3">
-  <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/x_IDrf6j0qs" allowfullscreen></iframe>
-  </div>
+  {% include youtube.liquid id="x_IDrf6j0qs" title="A2RL Drone Racing Season 2 (January, 2026)" %}
   <p class="caption mt-2">A2RL Drone Racing Season 2 (January, 2026)</p>
 </div>
 
 <div class="mt-3">
-  <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/omncgCLqqWA" allowfullscreen></iframe>
-  </div>
+  {% include youtube.liquid id="omncgCLqqWA" title="A2RL Drone Racing Season 1 (April, 2025)" %}
   <p class="caption mt-2">A2RL Drone Racing Season 1 (April, 2025)</p>
+</div>
+
+<div class="mt-3">
+  {% include youtube.liquid id="nzC4S16EFcQ" title="ADR-VINS Demonstrations (IROS 2026)" %}
+  <p class="caption mt-2">ADR-VINS Demonstrations (IROS 2026)</p>
+</div>
+
+<div class="mt-3">
+  {% include youtube.liquid id="QkZY0So3myw" title="VeloBins for Aerial Inertial Odometry" %}
+  <p class="caption mt-2">VeloBins for Aerial Inertial Odometry</p>
 </div>
 
 ## Links
 
 - competition website: [a2rl.io/autonomous-drone-race](https://a2rl.io/autonomous-drone-race)
-- paper 1: [Robust Tightly-Coupled Filter-Based Monocular Visual-Inertial State Estimation and Graph-Based Evaluation for Autonomous Drone Racing](https://arxiv.org/pdf/2603.02742)
-- paper 2: [Drift-Corrected Monocular VIO and Perception-Aware Planning for Autonomous Drone Racing](https://arxiv.org/pdf/2512.20475)
+- paper 1: [Drift-Corrected Monocular VIO and Perception-Aware Planning for Autonomous Drone Racing](https://onlinelibrary.wiley.com/doi/10.1002/rob.70371) (Journal of Field Robotics 2026)
+- paper 2: [Robust Tightly-Coupled Filter-Based Monocular Visual-Inertial State Estimation and Graph-Based Evaluation for Autonomous Drone Racing](https://arxiv.org/pdf/2603.02742) (IROS 2026)
+- paper 3: [VeloBins: Learning Velocity and Its Uncertainty via Bins and Error-Conditioned Gaussian Labels for Aerial Inertial Odometry](https://arxiv.org/abs/2608.29720) (under revision at IEEE RA-L)
