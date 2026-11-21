@@ -1,11 +1,11 @@
 cv:
   name: Maulana Bisyir Azhari
-  label: PhD Candidate in Electrical Engineering
+  label: PhD in Electrical Engineering
   email: mbazhari@kaist.ac.kr
   location: Daejeon, South Korea
   image: ""
   summary: >
-    PhD Candidate at Korea Advanced Institute of Science and Technology (KAIST),
+    PhD in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST),
     working under Prof. David Hyunchul Shim at the Unmanned System Research Group (USRG).
     Research focuses on visual and inertial state estimation, visual odometry/SLAM,
     and autonomous drones. Experienced in building real-world autonomous drone systems

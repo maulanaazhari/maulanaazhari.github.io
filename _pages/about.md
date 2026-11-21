@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: >
-#   PhD Candidate · <a href="https://unmanned.kaist.ac.kr/" target="_blank">Unmanned System Research Group (USRG)</a> · <br> <a href="https://ee.kaist.ac.kr/" target="_blank">School of Electrical Engineering, Korea Advanced Institute of Science and Technology (KAIST)</a>
+#   PhD · <a href="https://unmanned.kaist.ac.kr/" target="_blank">Unmanned System Research Group (USRG)</a> · <br> <a href="https://ee.kaist.ac.kr/" target="_blank">School of Electrical Engineering, Korea Advanced Institute of Science and Technology (KAIST)</a>
 
 profile:
   align: left
@@ -39,7 +39,7 @@ latest_posts:
   }
 </style>
 
-I am a PhD Candidate in Electrical Engineering at [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/), where I work at the [Unmanned System Research Group (USRG)](https://unmanned.kaist.ac.kr/) under the supervision of [Prof. David Hyunchul Shim](https://scholar.google.com/citations?user=-CKm5DEAAAAJ&hl=en&oi=ao). My research focuses on **visual and inertial state estimation** for **autonomous drones** — spanning learning-based visual odometry/SLAM, high-speed state estimation for autonomous drone racing, and real-world autonomous systems for maritime security and exploration. I have defended my PhD thesis, with title: _Specialized and Generalized Visual and Inertial State Estimation: From Autonomous Drone Racing to Diverse Environments_.
+I am a PhD in Electrical Engineering from [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/), where I work at the [Unmanned System Research Group (USRG)](https://unmanned.kaist.ac.kr/) under the supervision of [Prof. David Hyunchul Shim](https://scholar.google.com/citations?user=-CKm5DEAAAAJ&hl=en&oi=ao). My research focuses on **visual and inertial state estimation** for **autonomous drones** — spanning learning-based visual odometry/SLAM, high-speed state estimation for autonomous drone racing, and real-world autonomous systems for maritime security and exploration. I have defended my PhD thesis, with title: _Specialized and Generalized Visual and Inertial State Estimation: From Autonomous Drone Racing to Diverse Environments_.
 
 Now open for opportunities! email: maulanabisyira(at)gmail(dot)com
 
@@ -48,6 +48,13 @@ Now open for opportunities! email: maulanabisyira(at)gmail(dot)com
 **Research interests:** Visual(-Inertial) Odometry/SLAM · LiDAR SLAM · Autonomous Exploration · Object Detection & Tracking · Model Predictive Control · Drone Racing -->
 
 <div style="clear: both;"></div>
+
+<div class="row mb-4">
+  <div class="col-12 mt-3">
+    {% include youtube.liquid id="1_5iUOWkRk0" title="My Personal Research/Study Highlights" %}
+    <p class="caption mt-2 text-center">My Personal Research/Study Highlights</p>
+  </div>
+</div>
 
 ### Learning-Based Visual(-Inertial) Odometry/SLAM
 
