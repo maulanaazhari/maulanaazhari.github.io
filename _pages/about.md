@@ -49,10 +49,11 @@ Now open for opportunities! email: maulanabisyira(at)gmail(dot)com
 
 <div style="clear: both;"></div>
 
-<div class="row mb-4">
+### My Research Highlights
+
+<div class="row mb-5">
   <div class="col-12 mt-3">
-    {% include youtube.liquid id="1_5iUOWkRk0" title="My Personal Research/Study Highlights" %}
-    <p class="caption mt-2 text-center">My Personal Research/Study Highlights</p>
+    {% include youtube.liquid id="1_5iUOWkRk0" title="My Research Highlights" %}
   </div>
 </div>
 
